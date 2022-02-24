@@ -1,0 +1,19 @@
+@media (max-width: 1140px){
+    .fiexd-width {
+        width: 100%;
+        max-width: 100%;
+        padding: 0 30px;
+    }
+}
+@media (max-width: 966px){
+    .heider-right ul {
+        text-align: left;
+    }
+    .heider-right {
+        width: 65%;
+    }
+    .heider-left {
+        width: 35%;
+    }
+}
+@media-q

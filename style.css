@@ -1,0 +1,213 @@
+/* defoult css */
+*{
+    margin: 0;
+    padding: 0;
+}
+img{
+    max-width: 100%;
+}
+a{
+    text-decoration: none;
+}
+ul li{
+    list-style: none;
+}
+.text-center{
+    text-align: center;
+}
+.text-left{
+    text-align: left;
+}
+.text-right{
+    text-align: right;
+}
+.fiexd-width{
+    width: 1120px;
+    margin: auto;
+}
+.clear-fix::after{
+    content: "";
+    clear: both;
+    display: block;
+}
+/* defoult css end*/
+/* header area start here */
+.header{
+    background-color: #3498db;
+}
+.heider-left{
+    float: left;
+    width: 30%;
+}
+.heider-left img{
+    height: 69px;
+}
+.heider-right{
+    float: right;
+    width: 70%;
+}
+
+.heider-right ul{
+    text-align: right;
+}
+.heider-right ul li{
+   display: inline-block;
+   margin-left: -4px;
+}
+.heider-right ul li a {
+    display: block;
+    color: #fff;
+    font-size: 20px;
+    padding: 0 20px;
+    line-height: 73px;
+    border-right: 1px solid #fff;
+    transition: .5s;
+}
+.heider-right ul li a:hover{
+    background-color: #2980b9;
+}
+/* header area end here */
+/* banner section start here  */
+.banner-area {
+    background: url(https://i.ibb.co/QJR9tQR/slider.png) no-repeat top center;
+    background-size: cover;
+    padding: 200px 0;
+    background-attachment: fixed;
+}
+
+.banner-caption h1{
+    background-color: rgba(0, 0, 0, 0.247);
+    color: blanchedalmond;
+    display: inline-block;
+    padding: 10px 30px;
+    font-size: 30px;
+    border-radius: 5px;
+}
+.banner-caption h2{
+    background-color: rgba(52, 152, 219, 0.555);
+    color: blanchedalmond;
+    max-width: 500px;
+    margin: auto;
+    font-size: 35px;
+    margin-top: 20px;
+    border-radius: 5px;
+    padding: 15px 0;
+}
+/* banner section end here  */
+/* About section start here  */
+
+.about h1{
+    font-size: 35px;
+    margin-top: 30px;
+}
+.about p{
+    max-width: 700px;
+    margin: auto;
+    font-size: 20px;
+    margin-top: 10px;
+}
+/* About section end here  */
+/* services section start here  */
+.services {
+    margin-top: 30px;
+}
+.services h1 {
+    border-bottom: 1px solid #000;
+    width: fit-content;
+    margin: auto;
+    margin-bottom: 10px;
+}
+.services-item {
+    float: left;
+    width: 31%;
+    border: 1px solid #2980b9;
+    box-sizing: border-box;
+    padding: 28px 10px;
+    margin: 0 1%;
+}
+.services-item span {
+    width: 60px;
+    height: 60px;
+    color: #fff;
+    background-color: #2980b9;
+    display: block;
+    font-size: 34px;
+    margin: auto;
+    line-height: 60px;
+    border-radius: 20px 0 20px 0;
+}
+.services-item h3 {
+    margin: 15px 0;
+    font-size: 30px;
+}
+.services-item p{}
+/* services section end here  */
+/* blog section start here  */
+.blog-content {
+    margin: 60px 0;
+}
+.blog-left{
+    float: left;
+    width: 70%;
+}
+.blog-item img{
+    float: left;
+    width: 150px;
+    height: auto;
+    margin-right: 20px;
+}
+.blog-item {
+    margin-bottom: 30px;
+}
+.blog-right{
+    float: right;
+    width: 25%;
+}
+
+.blog-right h2 {
+    font-size: 30px;
+    border-bottom: 1px solid rgba(119, 116, 116, 0.116);
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+
+.blog-right ul li {
+    border: 1px solid #ddd;
+    background: #fafafa;
+    padding: 9px;
+    font-size: 20px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+/* blog section end here  */
+/* footer section start here  */
+.footer{
+    background-color: #000;
+    color: #fff;
+    padding: 15px 0;
+}
+.footer-left{
+    float: left;
+    width: 40%;
+    
+}
+.footer-right{
+    float: right;
+    width: 60%;
+}
+
+.socail-menu ul{
+    text-align: right;
+}
+.socail-menu ul li{
+    display: inline-block;
+    
+}
+.socail-menu ul li a {
+    color: #fff;
+    display: inline-block;
+    font-size: 28px;
+    margin-left: 10px;
+}
+.socail-menu ul li a:hover{}
+/* footer section end here  */
