@@ -58,7 +58,7 @@
         visibility: visible;
     }
     .header {
-        position: relative;
+        position: inherit;
     }
 }
 @media (max-width: 292px){
